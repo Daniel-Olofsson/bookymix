@@ -1,0 +1,27 @@
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+
+  font-size: 1.5rem;
+  align-items: flex-end;
+}
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon img {
+  width: 40px;
+  height: auto;
+  display: block;
+}

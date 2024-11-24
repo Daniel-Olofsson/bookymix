@@ -1,0 +1,81 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.sidebarMenu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebarMenu li {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.sidebarMenu li:hover {
+  text-decoration: underline;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+  align-items: stretch;
+}
+
+.searchInput {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.searchInput:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.searchButton {
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+.searchButton:active {
+  transform: scale(0.95);
+}

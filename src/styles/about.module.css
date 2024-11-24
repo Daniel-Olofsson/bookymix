@@ -1,0 +1,54 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  font-size: 1rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
+.timeline {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.timeline li {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.year {
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: bold;
+}

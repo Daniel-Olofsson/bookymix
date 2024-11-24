@@ -1,0 +1,114 @@
+.mainContainer {
+  background-color: black;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.bookContainer {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* Internet Explorer */
+  scrollbar-width: none; /*  Firefox */
+}
+
+.bookContainer::-webkit-scrollbar {
+  display: none; /* Safari och Chrome */
+}
+
+.bookItem {
+  min-width: 150px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  scroll-snap-align: start;
+}
+
+.bookItem:hover {
+  transform: scale(1.05);
+}
+
+.genreTitle {
+  color: #ccc;
+}
+
+.bookImage {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.bookTitle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.5rem;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.bookItem:hover .bookTitle {
+  opacity: 1;
+}
+
+.scrollButton {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.scrollButtonLeft {
+  left: 10px;
+}
+
+.scrollButtonRight {
+  right: 10px;
+}
+
+.scrollButton:hover {
+  background-color: #0056b3;
+}
+
+.scrollButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  color: white;
+  background-color: black;
+  font-size: xx-large;
+}
