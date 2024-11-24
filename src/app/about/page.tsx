@@ -9,14 +9,14 @@ const initialState = [
     title: "Launch of BookyMix",
     showDetails: false,
     details:
-      "BookyMix launched in 2024 with the aim of bringing together readers from all over the world. The platform offers book tracking, personalized recommendations, and more.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit mollis neque, in tincidunt nibh dictum id. Vivamus quis felis viverra, suscipit ligula a, posuere tortor. Cras ut vulputate enim. Sed semper sapien risus, id placerat sapien euismod tempor. Cras at gravida tellus. Integer ut egestas neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam eget turpis tincidunt, luctus metus sed, elementum sem. Ut vel turpis quis mi posuere maximus. Nam ultricies posuere nisl, mattis porta massa interdum vel. In tristique odio",
   },
   {
     year: 2025,
     title: "Future Updates",
     showDetails: false,
     details:
-      "BookyMix plans to introduce new features like community book clubs and advanced reading analytics to further enhance the user experience.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit mollis neque, in tincidunt nibh dictum id. Vivamus quis felis viverra, suscipit ligula a, posuere tortor. Cras ut vulputate enim. Sed semper sapien risus, id placerat sapien euismod tempor. Cras at gravida tellus. Integer ut egestas neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam eget turpis tincidunt, luctus metus sed, elementum sem. Ut vel turpis quis mi posuere maximus. Nam ultricies posuere nisl, mattis porta massa interdum vel. In tristique odio",
   },
 ];
 
